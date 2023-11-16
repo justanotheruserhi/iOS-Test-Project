@@ -14,6 +14,7 @@
 		52CC18722B063C8E00D34553 /* ProfileImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CC18712B063C8E00D34553 /* ProfileImage.swift */; };
 		52CC18742B0641CE00D34553 /* DoctorNotif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CC18732B0641CE00D34553 /* DoctorNotif.swift */; };
 		52CC18762B06651200D34553 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CC18752B06651200D34553 /* SearchBar.swift */; };
+		52CC18782B0670EC00D34553 /* MenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CC18772B0670EC00D34553 /* MenuBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		52CC18712B063C8E00D34553 /* ProfileImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImage.swift; sourceTree = "<group>"; };
 		52CC18732B0641CE00D34553 /* DoctorNotif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorNotif.swift; sourceTree = "<group>"; };
 		52CC18752B06651200D34553 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		52CC18772B0670EC00D34553 /* MenuBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				52CC18612B06307100D34553 /* iOS_test_projectApp.swift */,
 				52CC18632B06307100D34553 /* ContentView.swift */,
 				52CC18752B06651200D34553 /* SearchBar.swift */,
+				52CC18772B0670EC00D34553 /* MenuBar.swift */,
 				52CC18652B06307300D34553 /* Assets.xcassets */,
 				52CC18672B06307300D34553 /* Preview Content */,
 			);
@@ -148,6 +151,7 @@
 			files = (
 				52CC18642B06307100D34553 /* ContentView.swift in Sources */,
 				52CC18722B063C8E00D34553 /* ProfileImage.swift in Sources */,
+				52CC18782B0670EC00D34553 /* MenuBar.swift in Sources */,
 				52CC18762B06651200D34553 /* SearchBar.swift in Sources */,
 				52CC18622B06307100D34553 /* iOS_test_projectApp.swift in Sources */,
 				52CC18742B0641CE00D34553 /* DoctorNotif.swift in Sources */,

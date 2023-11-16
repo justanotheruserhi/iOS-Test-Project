@@ -27,8 +27,11 @@ struct ContentView: View {
              .padding(.trailing, 24)
             DoctorNotif()
                 .padding()
-            SearchBar().padding(.leading, 16)
+            SearchBar()
+                .padding(.leading, 16)
                 .padding(.trailing, 16)
+            MenuBar()
+                .frame(maxWidth: .infinity)
             Spacer()
         }
     }
