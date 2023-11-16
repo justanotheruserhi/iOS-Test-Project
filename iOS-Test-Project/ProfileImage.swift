@@ -10,6 +10,6 @@ import SwiftUI
 
 struct ProfileImage : View {
     var body : some View {
-        Image("Frame").clipShape(Circle())
+        Image("Frame").clipShape(Circle()).frame(width: 56, height: 56)
     }
 }
