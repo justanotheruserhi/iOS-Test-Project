@@ -32,7 +32,21 @@ struct ContentView: View {
                 .padding(.trailing, 16)
             MenuBar()
                 .frame(maxWidth: .infinity)
+            VStack(alignment: .leading) {
+                HStack {
+                    Text("Near Doctor")
+                      .font(
+                        Font.custom("Poppins", size: 16)
+                          .weight(.semibold)
+                      )
+                      .foregroundColor(Color(red: 0.05, green: 0.11, blue: 0.2))
+                    Spacer()
+                }.padding(.leading, 24)
+                
+            }
+            //NearDoctor()
             Spacer()
+        
         }
     }
 }
