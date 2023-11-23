@@ -8,6 +8,11 @@
 import SwiftUI
 
 struct MenuBar : View {
+    var doctor = "Doctor"
+    var covid = "Covid 19"
+    var medicine = "Medicine"
+    var hospital = "Hospital"
+    
     var body: some View {
         HStack(alignment: .top, spacing: 10) {
             Spacer()
@@ -17,7 +22,7 @@ struct MenuBar : View {
                     .padding(24)
                     .background(Color(red: 0.98, green: 0.98, blue: 0.98))
                     .cornerRadius(100)
-                Text("Covid 19")
+                Text(covid)
                   .font(Font.custom("Poppins", size: 15))
                   .foregroundColor(Color(red: 0.53, green: 0.59, blue: 0.73))
                   .padding(.top, 8)
@@ -28,7 +33,7 @@ struct MenuBar : View {
                     .padding(24)
                     .background(Color(red: 0.98, green: 0.98, blue: 0.98))
                     .cornerRadius(100)
-                Text("Doctor")
+                Text(doctor)
                   .font(Font.custom("Poppins", size: 15))
                   .foregroundColor(Color(red: 0.53, green: 0.59, blue: 0.73))
                   .padding(.top, 8)
@@ -39,7 +44,7 @@ struct MenuBar : View {
                     .padding(24)
                     .background(Color(red: 0.98, green: 0.98, blue: 0.98))
                     .cornerRadius(100)
-                Text("Medicine")
+                Text(medicine)
                   .font(Font.custom("Poppins", size: 15))
                   .foregroundColor(Color(red: 0.53, green: 0.59, blue: 0.73))
                   .padding(.top, 8)
@@ -50,11 +55,11 @@ struct MenuBar : View {
                     .padding(24)
                     .background(Color(red: 0.98, green: 0.98, blue: 0.98))
                     .cornerRadius(100)
-                Text("Hospital")
+                Text(hospital)
                   .font(Font.custom("Poppins", size: 15))
                   .foregroundColor(Color(red: 0.53, green: 0.59, blue: 0.73))
                   .padding(.top, 8)
-            }.frame(alignment: .leading)
+            }.padding(.trailing, 13).frame(alignment: .leading)
             Spacer()
         }
     }

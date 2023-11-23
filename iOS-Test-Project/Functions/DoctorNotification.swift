@@ -15,7 +15,7 @@ struct DoctorNotification : View {
                         Circle()
                             .foregroundColor(.white)
                             .frame(width: 48, height: 48)
-                        Image("Dude")
+                        Image("Doctor1")
                             .resizable()
                             .aspectRatio(contentMode: .fill)
                             .clipShape(Circle())

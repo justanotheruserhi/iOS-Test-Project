@@ -17,6 +17,7 @@
 		52CC187A2B06897100D34553 /* NearDoctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CC18792B06897100D34553 /* NearDoctor.swift */; };
 		52F3DDD42B0F952200AD9F62 /* DoctorNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F3DDD32B0F952200AD9F62 /* DoctorNotification.swift */; };
 		52F3DDD72B0F976C00AD9F62 /* Poppins.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52F3DDD62B0F976C00AD9F62 /* Poppins.ttf */; };
+		52F3DDDC2B0FA6CF00AD9F62 /* GreetingHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F3DDDB2B0FA6CF00AD9F62 /* GreetingHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		52F3DDD32B0F952200AD9F62 /* DoctorNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorNotification.swift; sourceTree = "<group>"; };
 		52F3DDD62B0F976C00AD9F62 /* Poppins.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Poppins.ttf; sourceTree = "<group>"; };
 		52F3DDDA2B0F9A5100AD9F62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		52F3DDDB2B0FA6CF00AD9F62 /* GreetingHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +73,6 @@
 				52F3DDD52B0F976C00AD9F62 /* Fonts */,
 				52CC18652B06307300D34553 /* Assets.xcassets */,
 				52CC18672B06307300D34553 /* Preview Content */,
-				52CC18792B06897100D34553 /* NearDoctor.swift */,
 			);
 			path = "iOS-test-project";
 			sourceTree = "<group>";
@@ -99,6 +100,8 @@
 				52CC18712B063C8E00D34553 /* ProfileImage.swift */,
 				52CC18752B06651200D34553 /* SearchBar.swift */,
 				52CC18772B0670EC00D34553 /* MenuBar.swift */,
+				52CC18792B06897100D34553 /* NearDoctor.swift */,
+				52F3DDDB2B0FA6CF00AD9F62 /* GreetingHeader.swift */,
 			);
 			path = Functions;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 				52CC187A2B06897100D34553 /* NearDoctor.swift in Sources */,
 				52CC18782B0670EC00D34553 /* MenuBar.swift in Sources */,
 				52CC18762B06651200D34553 /* SearchBar.swift in Sources */,
+				52F3DDDC2B0FA6CF00AD9F62 /* GreetingHeader.swift in Sources */,
 				52F3DDD42B0F952200AD9F62 /* DoctorNotification.swift in Sources */,
 				52CC18622B06307100D34553 /* iOS_test_projectApp.swift in Sources */,
 			);
