@@ -4,7 +4,8 @@ Trying out iOS with a simple page for "Mobile app development" courses. Project 
 This page is about healthcare, introduces several doctors to a user, allows to "switch" between four different sections. </br>
 
 
-The project is still WIP, here is it's current look: </br>
+The project is still WIP, here is it's current look. Updated since the last week: </br>
 
-![56lFutBjLjc](https://github.com/justanotheruserhi/iOS-Test-Project/assets/45848419/244df294-a195-4f4c-bc75-75da92746feb)
+![image](https://github.com/justanotheruserhi/iOS-Test-Project/assets/45848419/04fe5e73-e80c-4a9c-8be0-df7f8f932e40) </br>
+
 Looking forward to anyone's feedback and comments!
