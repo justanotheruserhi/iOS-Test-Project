@@ -5,10 +5,9 @@
 //  Created by Effective on 16.11.2023.
 //
 
-import Foundation
 import SwiftUI
 
-struct DoctorNotif : View {
+struct DoctorNotification : View {
     var body : some View {
         VStack {
             HStack {
@@ -22,8 +21,7 @@ struct DoctorNotif : View {
                             .clipShape(Circle())
                             .frame(width: 48, height: 48)
                     }.alignmentGuide(.leading, computeValue: { d in -d.width / 2 })
-                Spacer()
-                VStack(alignment: .leading, spacing: 16) {
+                VStack(alignment: .leading) {
                     Text("Dr.Imran Syahir").font(
                         Font.custom("Poppins", size: 16)
                         .weight(.bold)

@@ -25,14 +25,15 @@ struct ContentView: View {
                 ProfileImage()
             }.padding(.leading, 24)
              .padding(.trailing, 24)
-            DoctorNotif()
+            DoctorNotification()
                 .padding()
             SearchBar()
                 .padding(.leading, 16)
                 .padding(.trailing, 16)
             MenuBar()
+                .padding(.top, 20)
                 .frame(maxWidth: .infinity)
-            VStack(alignment: .leading) {
+            /*VStack(alignment: .leading) {
                 HStack {
                     Text("Near Doctor")
                       .font(
@@ -43,7 +44,7 @@ struct ContentView: View {
                     Spacer()
                 }.padding(.leading, 24)
                 
-            }
+            }*/
             //NearDoctor()
             Spacer()
         

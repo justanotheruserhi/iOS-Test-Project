@@ -12,10 +12,11 @@
 		52CC18662B06307300D34553 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52CC18652B06307300D34553 /* Assets.xcassets */; };
 		52CC18692B06307300D34553 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52CC18682B06307300D34553 /* Preview Assets.xcassets */; };
 		52CC18722B063C8E00D34553 /* ProfileImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CC18712B063C8E00D34553 /* ProfileImage.swift */; };
-		52CC18742B0641CE00D34553 /* DoctorNotif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CC18732B0641CE00D34553 /* DoctorNotif.swift */; };
 		52CC18762B06651200D34553 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CC18752B06651200D34553 /* SearchBar.swift */; };
 		52CC18782B0670EC00D34553 /* MenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CC18772B0670EC00D34553 /* MenuBar.swift */; };
 		52CC187A2B06897100D34553 /* NearDoctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CC18792B06897100D34553 /* NearDoctor.swift */; };
+		52F3DDD42B0F952200AD9F62 /* DoctorNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F3DDD32B0F952200AD9F62 /* DoctorNotification.swift */; };
+		52F3DDD72B0F976C00AD9F62 /* Poppins.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52F3DDD62B0F976C00AD9F62 /* Poppins.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,10 +26,12 @@
 		52CC18652B06307300D34553 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52CC18682B06307300D34553 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		52CC18712B063C8E00D34553 /* ProfileImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImage.swift; sourceTree = "<group>"; };
-		52CC18732B0641CE00D34553 /* DoctorNotif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorNotif.swift; sourceTree = "<group>"; };
 		52CC18752B06651200D34553 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		52CC18772B0670EC00D34553 /* MenuBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBar.swift; sourceTree = "<group>"; };
 		52CC18792B06897100D34553 /* NearDoctor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearDoctor.swift; sourceTree = "<group>"; };
+		52F3DDD32B0F952200AD9F62 /* DoctorNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorNotification.swift; sourceTree = "<group>"; };
+		52F3DDD62B0F976C00AD9F62 /* Poppins.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Poppins.ttf; sourceTree = "<group>"; };
+		52F3DDDA2B0F9A5100AD9F62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,12 +64,11 @@
 		52CC18602B06307100D34553 /* iOS-test-project */ = {
 			isa = PBXGroup;
 			children = (
-				52CC18712B063C8E00D34553 /* ProfileImage.swift */,
-				52CC18732B0641CE00D34553 /* DoctorNotif.swift */,
+				52F3DDDA2B0F9A5100AD9F62 /* Info.plist */,
+				52F3DDD92B0F998400AD9F62 /* Functions */,
 				52CC18612B06307100D34553 /* iOS_test_projectApp.swift */,
 				52CC18632B06307100D34553 /* ContentView.swift */,
-				52CC18752B06651200D34553 /* SearchBar.swift */,
-				52CC18772B0670EC00D34553 /* MenuBar.swift */,
+				52F3DDD52B0F976C00AD9F62 /* Fonts */,
 				52CC18652B06307300D34553 /* Assets.xcassets */,
 				52CC18672B06307300D34553 /* Preview Content */,
 				52CC18792B06897100D34553 /* NearDoctor.swift */,
@@ -80,6 +82,25 @@
 				52CC18682B06307300D34553 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		52F3DDD52B0F976C00AD9F62 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				52F3DDD62B0F976C00AD9F62 /* Poppins.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		52F3DDD92B0F998400AD9F62 /* Functions */ = {
+			isa = PBXGroup;
+			children = (
+				52F3DDD32B0F952200AD9F62 /* DoctorNotification.swift */,
+				52CC18712B063C8E00D34553 /* ProfileImage.swift */,
+				52CC18752B06651200D34553 /* SearchBar.swift */,
+				52CC18772B0670EC00D34553 /* MenuBar.swift */,
+			);
+			path = Functions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52CC18692B06307300D34553 /* Preview Assets.xcassets in Resources */,
+				52F3DDD72B0F976C00AD9F62 /* Poppins.ttf in Resources */,
 				52CC18662B06307300D34553 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -157,8 +179,8 @@
 				52CC187A2B06897100D34553 /* NearDoctor.swift in Sources */,
 				52CC18782B0670EC00D34553 /* MenuBar.swift in Sources */,
 				52CC18762B06651200D34553 /* SearchBar.swift in Sources */,
+				52F3DDD42B0F952200AD9F62 /* DoctorNotification.swift in Sources */,
 				52CC18622B06307100D34553 /* iOS_test_projectApp.swift in Sources */,
-				52CC18742B0641CE00D34553 /* DoctorNotif.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +314,7 @@
 				DEVELOPMENT_TEAM = 5L432PDZBS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS-test-project/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -321,6 +344,7 @@
 				DEVELOPMENT_TEAM = 5L432PDZBS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS-test-project/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
